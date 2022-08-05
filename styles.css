@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: #fff;
+    background-image: url(./backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+table, tr, td {  
+    border: 1px solid green;  
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+/* ten bang */
+th{
+    font-size: 25px;
+    padding: 10px; 
+    border: 1px solid green;
+    color: aqua;
+}
+a{
+    background-color: #fff;
+    color: blue;
+}
