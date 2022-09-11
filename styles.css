@@ -6,10 +6,10 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-size: 100% 100%;
-    /* canh giua */
-    width: 20%;
-    height: 20%;
-    margin: auto;
+     /* canh giua */
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* table, tr, td {  
     border: 1px solid green;  
