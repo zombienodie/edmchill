@@ -6,21 +6,44 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-size: 100% 100%;
+    /* canh giua */
+    width: 20%;
+    height: 20%;
+    margin: auto;
 }
-table, tr, td {  
+/* table, tr, td {  
     border: 1px solid green;  
     border-collapse: collapse;
     padding: 10px;
     
-}
+} */
 /* ten bang */
 th{
     font-size: 25px;
     padding: 10px; 
-    border: 1px solid green;
+    border: 1px solid;
     color: aqua;
+    animation: doimau 10s infinite;
 }
 a{
     background-color: #fff;
     color: blue;
+}
+/* doi mau */
+@keyframes doimau{
+    0%{
+        color: tomato;
+    }
+    25%{
+        color: violet;
+    }
+    50%{
+        color: skyblue;
+    }
+    75%{
+        color:  gold;
+    }
+    100%{
+        color: chartreuse;
+    }
 }
